@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma'am Procees Torta Dalaguete - Homepage</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Ma'am Procees Torta</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Ma'am Procees Torta Dalaguete</h2>
+                <p>Experience the finest tortas made with love and tradition. Fresh ingredients, authentic flavors, and unforgettable taste.</p>
+                <a href="products.html" class="btn">Explore Our Products</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/torta-hero.jpg" alt="Delicious Torta">
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h3>Why Choose Us?</h3>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-utensils"></i>
+                        <h4>Fresh Ingredients</h4>
+                        <p>We use only the freshest, locally sourced ingredients to ensure the best quality in every bite.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-heart"></i>
+                        <h4>Made with Love</h4>
+                        <p>Each torta is crafted with care and passion, following traditional recipes passed down through generations.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-clock"></i>
+                        <h4>Quick Service</h4>
+                        <p>Enjoy fast and friendly service, perfect for your busy schedule or special occasions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-sellers">
+            <div class="container">
+                <h3>Best Sellers</h3>
+                <div class="product-grid" id="best-sellers-grid">
+                    <!-- Best sellers will be loaded dynamically via PHP -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ma'am Procees Torta Dalaguete. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
